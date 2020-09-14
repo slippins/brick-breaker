@@ -13,6 +13,10 @@ export default class InputHandler{
 
                 case 27:
                     game.togglePause();
+
+                case 32:
+                    game.start();
+                    break;
             }
 
         });
