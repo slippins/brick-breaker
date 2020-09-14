@@ -34,3 +34,10 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+#gameScreen{
+ border: 1px solid black;
+    width: 800px;
+    height: 600px;
+
+}
