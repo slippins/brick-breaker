@@ -30,7 +30,7 @@ p {
 
 /* Sikrer billeder er responsive */
 img {
-    display: block; /* Billeder er et element (laver linjeskift) */
+    display: none; /* Billeder er et element (laver linjeskift) */
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
@@ -39,5 +39,5 @@ img {
  border: 1px solid black;
     width: 800px;
     height: 600px;
-
 }
+
