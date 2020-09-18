@@ -18,10 +18,18 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        #gameScreen {
+            border: 1px solid black;
+        }
+        img {
+            display: none;
+        }
+    </style>
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -29,7 +37,7 @@
 <img src="assets/images/ball.png" id="img_ball">
 <img src="assets/images/brick.png" id="img_brick">
 
-<canvas id="gameScreen">
+<canvas id="gameScreen" width="800" height="600">
 
 </canvas>
 
